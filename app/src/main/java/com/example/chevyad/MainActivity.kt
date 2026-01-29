@@ -93,7 +93,7 @@ fun ChevyAd(modifier: Modifier = Modifier) {
 @Composable
 fun BuyerSwitch(modifier: Modifier = Modifier) {
     var isChecked by remember { mutableStateOf(value = true) }
-    val message = if (isChecked) "Sold" else "For Sale"
+    val message = if (isChecked) "Sold" else "Still for Sale"
 
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
